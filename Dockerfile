@@ -1,5 +1,5 @@
 # Stage 1: Build the Spring Boot application
-FROM eclipse-temurin:17-jdk-focal AS builder
+FROM eclipse-temurin:17-jre-focal
 
 # Set the working directory inside the container
 WORKDIR /app
