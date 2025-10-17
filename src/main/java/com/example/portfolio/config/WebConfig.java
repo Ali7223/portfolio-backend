@@ -14,7 +14,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins("https://68f21077f0c7a22f1b006ce6--portfolio-frontend-reakt.netlify.app/") // your React dev server
+                        .allowedOrigins("https://portfolio-frontend-reakt.netlify.app/") // your React dev server
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowCredentials(true);
             }
